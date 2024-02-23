@@ -52,6 +52,22 @@ header {
     cursor: pointer;
 }
 
+#botaozerar {
+    background-color: var(--cor1);
+    color: var(--cor4);
+    font-size: 1.3em;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    margin-top: -50px;
+}
+
+#botaozerar:hover {
+    cursor: pointer;
+}
+
 #container #resultado {
     min-width: 50px;
     max-width: 100px;

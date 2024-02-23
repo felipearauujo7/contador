@@ -12,4 +12,9 @@ function adicionar() {
     resultado.textContent = total;
 }
 
+function zerar() {
+    resultado.textContent = 0;
+    alert("Contador zerado, Por favor inicie novamente.");
+    total = 0;
+}
 
